@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  http2:
+    enabled: true
+  servlet:
+    context-path: /api
+
+mailchimp:
+  baseUrl: https://us2.api.mailchimp.com/3.0
+  apiKey: 123456
+mandrill:
+  baseUrl: https://mandrillapp.com/api
+  apiKey: 123456
